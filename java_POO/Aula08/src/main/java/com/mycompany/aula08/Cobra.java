@@ -5,5 +5,10 @@ public class Cobra extends Reptil{
     public void locomover() {
         System.out.println("rastejando");
     }
+    
+    @Override
+    public void emitirSom() {
+        System.out.println("shshshshhs!");
+    }
 
 }

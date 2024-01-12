@@ -1,6 +1,7 @@
 package com.mycompany.aula08;
 public class Aula08 {
     public static void main(String[] args) {
+       
         // Animal n = new Animal(); <- está errado pois a classe animal é abstrato
         Mamifero m = new Mamifero();
         Reptil r = new Reptil();
@@ -19,6 +20,12 @@ public class Aula08 {
         p.locomover();
         a.locomover();
         
+        cachorro.abanarRabo();
+        cachorro.emitirSom();
         
+        
+        cobra.setCorEscama("Vermelha");
+        cobra.emitirSom();
+        System.out.println(cobra.getCorEscama());
     }
 }

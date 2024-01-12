@@ -4,5 +4,4 @@ public class Goldfish extends Peixe {
     public void locomover() {
         System.out.println("nadando");
     }
-
 }
